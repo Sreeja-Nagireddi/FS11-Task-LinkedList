@@ -38,10 +38,10 @@ class Employee {
 public class Main {
     public static void main(String[] args) {
         LinkedList<Employee> employees = new LinkedList<>();
-        employees.add(new Employee(101, "John", "Manager", 50000));
-        employees.add(new Employee(102, "Alice", "Developer", 60000));
-        employees.add(new Employee(103, "Bob", "Designer", 45000));
-        employees.add(new Employee(104, "Charlie", "Tester", 55000));
+        employees.add(new Employee(101, "Rohith", "Project Associate", 80000));
+        employees.add(new Employee(102, "Siri", "Tester", 70000));
+        employees.add(new Employee(103, "Karthik", "Designer", 55000));
+        employees.add(new Employee(104, "Prasanna", "Developer", 65000));
 
         Collections.sort(employees, new Comparator<Employee>() {
             @Override
